@@ -5,7 +5,7 @@ function sum(n) {
   // param:6 => 1 + 2 + 3 + 4 + 5 + 6
   let result = 0;
   for (let i = 1; i <= n; i++) {
-    result += 1;
+    result += i;
   }
   return result;
 }
